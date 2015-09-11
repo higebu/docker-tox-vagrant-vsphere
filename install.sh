@@ -9,7 +9,7 @@ apk --update add curl ca-certificates git build-base \
     libffi-dev openssl-dev libbz2 libc6-compat ncurses-dev readline-dev \
     xz-dev zlib-dev sqlite-dev patch bzip2-dev expat-dev zlib-dev \
     gdbm-dev paxmark linux-headers tcl-dev ruby ruby-bundler ruby-dev \
-    ruby-io-console ruby-json libxml2-dev libxslt-dev libarchive-tools
+    ruby-io-console ruby-json libxml2-dev libxslt-dev libarchive-tools openssh-client rsync
 
 # Install pyenv
 curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer -o /pyenv-installer
