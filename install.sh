@@ -36,7 +36,7 @@ pyenv global $PYTHON_GLOBAL_VERSION "${PYTHON_VERSIONS[@]}"
 
 # Install tox
 pip install -U pip
-pip install -U tox pep8-naming flake8-print flake8-pep257
+pip install -U tox detox pytest-xdist pep8-naming flake8-print flake8-pep257
 
 # Install Vagrant
 curl -L https://github.com/mitchellh/vagrant/archive/v${VAGRANT_VERSION}.tar.gz -o vagrant.tar.gz
